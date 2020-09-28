@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE web-app SYSTEM "web-app_2_3.dtd">
+<web-app version="1.0">
+    <servlet>
+        <servlet-name>
+            helloservlet
+        </servlet-name>
+        <servlet-class>
+             这是class内容
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            helloservlet
+        </servlet-name>
+        <url-pattern>
+            hello
+        </url-pattern>
+    </servlet-mapping>
+</web-app>

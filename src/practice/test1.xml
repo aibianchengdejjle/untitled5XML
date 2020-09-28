@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://www.example.org/web-app_2_5"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.example.org/web-app_2_5 web-app_2_5.xsd"
+         version="2.5">
+    <servlet>
+    <servlet-name>
+        Myservlet1
+    </servlet-name>
+    <servlet-class>practice.Myservlet1</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Myservlet1
+        </servlet-name>
+        <url-pattern>
+            /myservlet1
+        </url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>
+            Myservlet2
+        </servlet-name>
+        <servlet-class>practice.Myservlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Myservlet2
+        </servlet-name>
+        <url-pattern>
+           /myservlet2
+        </url-pattern>
+    </servlet-mapping>
+</web-app>
